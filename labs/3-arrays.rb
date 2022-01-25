@@ -19,6 +19,12 @@
 my_stuff = ["milk", "eggs", "bacon"]
 friend_stuff = ["beer", "cookies", "apples", "eggs"]
 
-shopping_list = my_stuff + friend_stuff
+#shopping_list = my_stuff + friend_stuff
 
-puts shopping_list.uniq.sort
+# puts shopping_list.uniq.sort
+
+# Preferred approach
+shopping_list_with_dupes = my_stuff + friend_stuff
+shopping_list_unique = shopping_list_with_dupes.uniq
+
+puts shopping_list_unique.sort
