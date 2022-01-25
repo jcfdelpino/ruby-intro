@@ -14,3 +14,11 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# Solution Start
+my_stuff = ["milk", "eggs", "bacon"]
+friend_stuff = ["beer", "cookies", "apples", "eggs"]
+
+shopping_list = my_stuff + friend_stuff
+
+puts shopping_list.uniq.sort
